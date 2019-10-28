@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#F9F4D3;
+	color:#000	 
+}
+
+#Cabeceraweb{
+	color:#000; 
+	text-align:center;
+	padding:2px;
+	font: bold 20px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#Subtitulo{
+	color:#ADB1B1;
+	text-align:center;
+	font: bold 20px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#Barra_principal{	
+	text-align:center;
+	border:3px solid #000;
+	border-radius:10px; 
+	
+}
+
+lo{
+	display:inline;	
+}
+
+#Subtitulo_2{
+	text-align:center;
+	font:20px Verdana, Geneva, sans-serif; 
+	
+	}
+	
+#Subtitulo_3{
+	text-align:left;
+	font:20px Verdana, Geneva, sans-serif; 
+	
+	}
+
+#Parrafo_2{
+	text-align:justify;
+	float:left;
+	margin-left:20px auto; 
+	
+	}
+	
+#Parrafo_2{
+	text-align:justify;
+	
+	}
+	
+#Parrafo_3{
+	
+	text-align:justify;
+	
+	}
+	
