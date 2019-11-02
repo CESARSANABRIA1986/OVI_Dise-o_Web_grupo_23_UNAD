@@ -9,7 +9,9 @@
     section,
     article,
     aside,
-    footer {
+    footer,
+    section
+     {
         margin: auto;
         text-align: center;
         max-width: 95%;
@@ -66,10 +68,10 @@ lo{
 	
 	}
 	
-/*#Parrafo_2{
+#Parrafo_2{
 	text-align:justify;
 	
-	}*/
+	}
 	
 #Parrafo_3{
 	
