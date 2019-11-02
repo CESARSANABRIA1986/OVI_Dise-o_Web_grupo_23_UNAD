@@ -98,7 +98,7 @@ li a, btnDesplegable{
 .desplegable:hover .contenidoDesplegable{
     display: block;
 }
-lo a:hover{
+li a:hover{
    background-color: brown; 
 }
 
