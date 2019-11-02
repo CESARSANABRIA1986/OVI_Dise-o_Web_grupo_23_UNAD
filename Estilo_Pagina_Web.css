@@ -96,12 +96,22 @@ body{
 	display:block;
 	
 	}
+	
+.github{
+	overflow:auto;
+	display:inline;
+	float:left;
+	margin:10px;
+	width:200px;
+	}
+
 
 #Parrafo_2{
 	text-align:justify;
 	floats:left;
 	overflow:auto;
 	margin-left:20px auto;
+	width:1000px;
 	 
 	
 	}
@@ -110,24 +120,38 @@ body{
 	text-align:justify;
 	float:left;
 	overflow:auto;
-	margin-left:20px auto;
-	display:inline-block;
-	height:300px; /*altura delobjeto*/
-	width:600px;*Ancho del Objeto*/
+	margin:10px auto;
+	display:inline;
+	height:300px 50px; /*altura delobjeto*/
+	width:600px;/*Ancho del Objeto*/
 	
 	}
 	
-#Parrafo_3{
+#Parrafo_1_1{
+	text-align:justify;
+	float:left;
+	overflow:auto;
+	margin:10px 10px;
+	display:inline;
+	height:300px 50px; /*altura delobjeto*/
+	width:500px;/*Ancho del Objeto*/
+	
+	}	
+	
+	
+.Parrafo_3{
 	text-align:justify;
 	float:right;
-	display:inline-block;
+	display:inline;
 	overflow:auto;
 	margin-left:20px auto;
 	padding:10px 100px;
-	height:300px;
-	width:400px; /*Ancho del Objeto*/
+	height:280px; /*altura delobjeto*/
+	width:150px; /*Ancho del Objeto*/
 	
 }	
+
+
 .social-bar{
 	position: fixed;
 	right:0;
