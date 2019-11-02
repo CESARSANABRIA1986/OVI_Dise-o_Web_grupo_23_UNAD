@@ -108,10 +108,13 @@ body{
 	
 #Parrafo_1{
 	text-align:justify;
-	floats:left;
+	float:left;
 	overflow:auto;
 	margin-left:20px auto;
 	display:inline-block;
+	height:300px; /*altura delobjeto*/
+	width:600px;*Ancho del Objeto*/
+	
 	}
 	
 #Parrafo_3{
@@ -121,10 +124,10 @@ body{
 	overflow:auto;
 	margin-left:20px auto;
 	padding:10px 100px;
-	height:250px;
-	width:100px;
-}
+	height:300px;
+	width:400px; /*Ancho del Objeto*/
 	
+}	
 .social-bar{
 	position: fixed;
 	right:0;
