@@ -70,6 +70,42 @@ body{
 	background:rgba(0, 0, 0, 0.3);
 }
 
+/*Menú************************************************/
+
+
+li a, btnDesplegable{
+    display: inline-block;
+    color: beige;
+    padding: 0.9em 1em;
+    text-align: center ;
+    text-decoration:none ;
+}
+.contenidoDesplegable{
+    display:none;
+    position: absolute;
+    background-color: cornsilk;
+    min-width: 8em;
+}
+.contenidoDesplegable a{
+    color: black;
+    padding: 0.9em 1em;
+    display:block ;
+    text-align: left;
+}
+.contenidoDesplegable a:hover{
+    background-color: darkcyan;
+}
+.desplegable:hover .contenidoDesplegable{
+    display: block;
+}
+lo a:hover{
+   background-color: brown; 
+}
+
+
+
+
+/***********************************************/
 #html{
 	overflow:auto;
 	display:inline-block;
