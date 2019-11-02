@@ -63,7 +63,7 @@ body{
 	overflow:auto;
 	text-decoration:none;
 	border-radius:60px 20px 5px 60px;
-	background-color:#F60;		
+	color:#F30;		
 }
 
 .Barra_principal lo a:hover{
@@ -112,8 +112,7 @@ body{
 	overflow:auto;
 	margin-left:20px auto;
 	width:1000px;
-	 
-	
+		
 	}
 	
 #Parrafo_1{
@@ -123,7 +122,7 @@ body{
 	margin:10px auto;
 	display:inline-block;
 	height:300px 50px; /*altura delobjeto*/
-	width:500px;/*Ancho del Objeto*/
+	width:700px;/*Ancho del Objeto*/
 	
 	}
 	
@@ -135,18 +134,23 @@ body{
 	margin:5px;
 	padding:5px;
 	height:280px; /*altura delobjeto*/
-	width:250px; /*Ancho del Objeto*/
+	width:200px; /*Ancho del Objeto*/
+	color:#F63;
 	
 }	
+#comandos{
+	color:#000;
+	background-attachment:scroll;
+}
 	
 #Parrafo_1_1{
 	text-align:justify;
 	float:left;
 	overflow:auto;
-	margin:10px 10px;
-	display:inline-block;
-	height:300px 50px; /*altura delobjeto*/
-	width:700px;/*Ancho del Objeto*/
+	margin:5px 5px;
+	display:inline;
+	height:100px; /*altura delobjeto*/
+	width:900px;/*Ancho del Objeto*/
 	
 	}	
 	
@@ -184,9 +188,9 @@ body{
 	overflow:auto;
 	float:none;
 	text-align:center;
-	margin:50px 200px;
+	margin:10px 380px;
 	padding:3px;
-	display:inline-block;
-	height:40%;
+	display:block;
+	height:50%;
 
 }
