@@ -106,22 +106,24 @@ body{
 	
 	}
 	
-#Parrafo_2{
+#Parrafo_1{
 	text-align:justify;
 	floats:left;
 	overflow:auto;
 	margin-left:20px auto;
-	
+	display:inline-block;
 	}
 	
 #Parrafo_3{
-	
 	text-align:justify;
-	floats:left;
+	float:right;
+	display:inline-block;
 	overflow:auto;
 	margin-left:20px auto;
-	
-	}
+	padding:10px 100px;
+	height:250px;
+	width:100px;
+}
 	
 .social-bar{
 	position: fixed;
@@ -150,3 +152,15 @@ body{
 	border-radius: 1rem 0 0 1rem;
 	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
 	}
+
+
+.fin{
+	overflow:auto;
+	float:none;
+	text-align:center;
+	margin:50px 200px;
+	padding:3px;
+	display:inline-block;
+	height:40%;
+
+}
