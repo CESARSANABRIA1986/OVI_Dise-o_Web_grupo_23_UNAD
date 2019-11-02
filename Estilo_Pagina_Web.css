@@ -1,5 +1,25 @@
 @charset "utf-8";
 /* CSS Document */
+*{
+    margin: 0;
+    padding: 0;
+}
+    header,
+    section,
+    article,
+    aside,
+    footer,
+    section
+     {
+        margin: auto;
+        text-align: center;
+        max-width: 95%;
+        border-radius: 0.5em;
+    }
+
+nav {
+	max-width: 80%;	
+}
 
 body{
 	background-color:FFFFFF;
@@ -9,43 +29,78 @@ body{
 #Cabeceraweb{
 	color:#000; 
 	text-align:center;
-	padding:2px;
+	padding:1px;
 	font: bold 20px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color:#F60;
+	clear:both;
 }
 
 #Subtitulo{
 	color:#ADB1B1;
 	text-align:center;
 	font: bold 20px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	clear:both;
 }
 
-#Barra_principal{	
+.Barra_principal{	
 	text-align:center;
 	border:3px solid #000;
-	border-radius:10px; 
-	
+	border-radius:10px;
+	border-radius:40px 40px 40px 40px;
+	background-color: #005883;
+	padding:10px;
+	margin:auto;
+	clear:both;
 }
 
-lo{
-	display:inline;	
+.Barra_principal lo a{
+	display:inline-block;
+	justify-content:center;
+	flex-glow:100%;
+	margin:1px 5%;
+	padding:3px;
+	font-size:22px;
+	overflow:auto;
+	text-decoration:none;
+}
+
+.Barra_principal lo a:hover{
+	background:rgba(0, 0, 0, 0.3);
+}
+
+#html{
+	overflow:auto;
+	display:inline-block;
+	float:left; /*Posicion de la caja o obsjeto*/
+	width:auto; /*tamaño del objeto*/
+	height:auto; /*tamaño del objeto*/
+	margin:80px 10px 10px;
 }
 
 #Subtitulo_2{
 	text-align:center;
-	font:20px Verdana, Geneva, sans-serif; 
+	font:20px Verdana, Geneva, sans-serif;
+	float:none;
+	display:inline-block;
+	padding: 30px;
+	color:#006;
 	
 	}
 	
 #Subtitulo_3{
-	text-align:left;
-	font:20px Verdana, Geneva, sans-serif; 
+	text-align:center;
+	font:20px Verdana, Geneva, sans-serif;
+	float:inherit;
+	display:block;
 	
 	}
 
 #Parrafo_2{
 	text-align:justify;
-	float:left;
-	margin-left:20px auto; 
+	floats:left;
+	overflow:auto;
+	margin-left:20px auto;
+	 
 	
 	}
 	
