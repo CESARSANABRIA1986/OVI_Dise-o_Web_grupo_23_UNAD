@@ -230,3 +230,43 @@ li a:hover{
 	height:50%;
 
 }
+
+/*Hombresú********************************************** * /
+
+
+	li a , btnDesplegable {
+		pantalla : bloque en linea;
+		color : beige ;
+		relleno : 0.9 em 1 em ;
+		alinear texto : centro ;
+		decoracion de texto : ninguno ;
+}
+	.contenido desplegable {
+		pantalla : ninguno ;
+		posicion  : absoluta ;
+		color de fondo : maicena ;
+		ancho min : 8 em ;
+}
+.contenidoDesplegable  a {
+    de color : negro ;
+    relleno : 0.9 em  1 em ;
+    pantalla : bloque ;
+    alinear texto : izquierda ;
+}
+.contenidoDesplegable  a : hover {
+    color de fondo : darkcyan ;
+}
+.desplegable : hover  .contenidoDesplegable {
+    pantalla : bloque ;
+}
+li  a : hover {
+   color de fondo : marrón ;
+}
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4Gk1OQrei8U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+/ * ********************************************* * /
