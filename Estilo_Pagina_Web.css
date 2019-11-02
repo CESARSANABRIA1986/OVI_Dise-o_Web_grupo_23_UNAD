@@ -9,7 +9,7 @@ body{
 #Cabeceraweb{
 	color:#000; 
 	text-align:center;
-	padding:2px;
+	padding:1px;
 	font: bold 20px "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
@@ -24,8 +24,7 @@ body{
 	border:3px solid #000;
 	border-radius:10px;
 	border-radius:60px 20px 5px 60px;
-	background-color: #005883;	
-	
+	background-color: #005883;		
 }
 
 lo{
