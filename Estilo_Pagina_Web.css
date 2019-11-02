@@ -1,5 +1,21 @@
 @charset "utf-8";
 /* CSS Document */
+*{
+    margin: 0;
+    padding: 0;
+}
+    header,
+    nav,
+    section,
+    article,
+    aside,
+    footer {
+        margin: auto;
+        text-align: center;
+        max-width: 95%;
+        border-radius: 0.5em;
+    }
+
 
 body{
 	background-color:FFFFFF;
