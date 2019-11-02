@@ -63,7 +63,7 @@ body{
 	overflow:auto;
 	text-decoration:none;
 	border-radius:60px 20px 5px 60px;
-	background-color: #F60;		
+	background-color:#F60;		
 }
 
 .Barra_principal lo a:hover{
@@ -108,12 +108,18 @@ body{
 	
 #Parrafo_2{
 	text-align:justify;
+	floats:left;
+	overflow:auto;
+	margin-left:20px auto;
 	
 	}
 	
 #Parrafo_3{
 	
 	text-align:justify;
+	floats:left;
+	overflow:auto;
+	margin-left:20px auto;
 	
 	}
 	
