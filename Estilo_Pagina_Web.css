@@ -5,7 +5,6 @@
     padding: 0;
 }
     header,
-    nav,
     section,
     article,
     aside,
@@ -18,6 +17,9 @@
         border-radius: 0.5em;
     }
 
+nav,{
+	max-width: 80%;
+}
 
 body{
 	background-color:FFFFFF;
