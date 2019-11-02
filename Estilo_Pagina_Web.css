@@ -22,7 +22,9 @@ body{
 #Barra_principal{	
 	text-align:center;
 	border:3px solid #000;
-	border-radius:10px; 
+	border-radius:10px;
+	border-radius:60px 20px 5px 60px;
+	background-color: #005883;	
 	
 }
 
