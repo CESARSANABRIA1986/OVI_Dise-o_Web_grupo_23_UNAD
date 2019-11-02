@@ -1,12 +1,5 @@
 @charset "utf-8";
 /* CSS Document */
-#Cabeceraweb, #Subtitulo, #Barra_principal, #Subtitulo_2, #Subtitulo_3, #Parrafo_2, #Parrafo_3, .social-bar, .icon{
-	max-width: 93%;
-	margin: auto;
-	text-align: center;
-}
-
-text-align: center;
 
 body{
 	background-color:FFFFFF;
