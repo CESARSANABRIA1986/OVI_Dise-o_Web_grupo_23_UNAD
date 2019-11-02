@@ -62,6 +62,8 @@ body{
 	font-size:22px;
 	overflow:auto;
 	text-decoration:none;
+	border-radius:60px 20px 5px 60px;
+	background-color: #005883;		
 }
 
 .Barra_principal lo a:hover{
