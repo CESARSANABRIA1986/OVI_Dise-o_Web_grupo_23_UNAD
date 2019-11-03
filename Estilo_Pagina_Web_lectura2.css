@@ -188,7 +188,7 @@ nav > ul > li > ul {
 	overflow:auto;
 	margin:5px 5px;
 	display:inline;
-	height:100px; /*altura delobjeto*/
+	height:500px; /*altura delobjeto*/
 	width:900px;/*Ancho del Objeto*/
 	padding:10px;
 	}	
