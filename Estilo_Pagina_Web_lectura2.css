@@ -164,23 +164,11 @@ nav > ul > li > ul {
 	overflow:auto;
 	margin:10px auto;
 	display:inline-block;
-	height:300px 50px; /*altura delobjeto*/
+	height:700px 50px; /*altura delobjeto*/
 	width:700px;/*Ancho del Objeto*/
 	
 	}
 	
-.Parrafo_3{
-	text-align:justify;
-	float:right;
-	display:inline-block;
-	overflow:auto;
-	margin:5px;
-	padding:5px;
-	height:280px; /*altura delobjeto*/
-	width:200px; /*Ancho del Objeto*/
-	color:#F63;
-	
-}	
 #comandos{
 	color:#000;
 	background-attachment:scroll;
