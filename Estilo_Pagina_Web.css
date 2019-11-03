@@ -229,7 +229,7 @@ nav > ul > li > ul {
 
 .fin{
 	overflow:auto;
-	float:none;
+	float:center;
 	text-align:center;
 	margin:10px 380px;
 	padding:3px;
