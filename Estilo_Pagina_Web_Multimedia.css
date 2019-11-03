@@ -1,0 +1,243 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    margin: 0;
+    padding: 0;
+}
+    header,
+    section,
+    article,
+    aside,
+    footer,
+    section
+     {
+        margin: auto;
+        text-align: center;
+        max-width: 95%;
+        border-radius: 0.5em;
+    }
+
+nav {
+	max-width: 90%;		
+}
+
+body{
+	background-color:FFFFFF;
+	color:#000	 
+}
+
+#Cabeceraweb{
+	color:#000; 
+	text-align:center;
+	padding:1px;
+	font: bold 20px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color:#F60;
+	clear:both;
+}
+
+#Subtitulo{
+	color:#ADB1B1;
+	text-align:center;
+	font: bold 20px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	clear:both;
+}
+
+/*Menú************************************************/
+
+/*Menu General*/
+nav ul{
+	list-style:none;
+	padding:0;	
+	margin:10px 30px auto 80px;
+	border-radius:35px 35px 35px 35px;	
+	}
+	
+nav li{
+	line-height:3rem;
+	position:relative;
+}
+
+nav a{
+	text-decoration:none;
+	padding:0 3em;
+	font-size:18px;
+	color:#F00;
+	transition:0.4s;
+	display:block;
+	float:right;
+	background:#036;
+	}
+	
+nav li ul{
+	position:absolute;
+	display:none;
+	
+}
+nav li:hover ul{
+	display:block;
+	}
+
+
+nav a:hover{
+	background:rgba(0, 0, 0, .5);
+}
+
+nav ul ul ul{
+	display:none;
+}
+
+
+/*Primer Nivel*/
+
+nav > ul{
+	background:#036;
+	display:table;
+	width:100%;
+}
+
+nav > ul > li{
+	float:left;
+	padding:20px 30px;
+	
+}
+
+/*Segundo Nivel*/
+
+nav li li{
+	background:#F30;
+	display:block;
+	transition:all 0.6s;
+}
+
+nav > ul > li > ul {
+	top:87%;
+}
+/***********************************************/
+#html{
+	overflow:auto;
+	display:inline-block;
+	float:left; /*Posicion de la caja o obsjeto*/
+	width:auto; /*tamaño del objeto*/
+	height:auto; /*tamaño del objeto*/
+	margin:150px 30px 10px;
+	padding:50px 10px 10px;
+}
+
+.video{
+	overflow:auto;
+	float:center;
+	width:70%;
+	height:150%;
+}
+
+
+#Subtitulo_2{
+	text-align:center;
+	font:20px Verdana, Geneva, sans-serif;
+	float:none;
+	display:inline-block;
+	padding: 30px;
+	color:#006;
+	
+	}
+	
+#Subtitulo_3{
+	text-align:center;
+	font:20px Verdana, Geneva, sans-serif;
+	float:inherit;
+	display:block;
+	
+	}
+	
+.github{
+	overflow:auto;
+	display:inline;
+	float:left;
+	margin:10px;
+	width:200px;
+	}
+
+
+#Parrafo_2{
+	text-align:justify;
+	floats:left;
+	overflow:auto;
+	margin-left:20px auto;
+	width:50px;
+	width:900px;
+	padding:10px;
+		
+	}
+	
+#Parrafo_1{
+	text-align:justify;
+	float:left;
+	overflow:auto;
+	margin:10px auto;
+	display:inline-block;
+	height:60px; /*altura delobjeto*/
+	width:900px;/*Ancho del Objeto*/
+	padding:10px;
+	
+	}
+	
+.documento_pdf{
+	padding:20px;
+	position:relative;
+	}
+#comandos{
+	color:#000;
+	background-attachment:scroll;
+}
+	
+#Parrafo_1_1{
+	text-align:justify;
+	float:left;
+	overflow:auto;
+	margin:5px 5px;
+	display:inline;
+	height:100px; /*altura delobjeto*/
+	width:900px;/*Ancho del Objeto*/
+	padding:10px;
+	}	
+	
+
+.social-bar{
+	position: fixed;
+	right:0;
+	top:65%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	aling-item: flex-end;
+	z-index:100; 
+	}
+
+.icon{
+	color:white;
+	text-decoration:none;
+	padding:1rem;
+	display:flex;
+	transition:all .5s; 
+	}
+.icon-twitter{
+	background:#339DC5;
+	}
+	
+.icon:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+	}
+
+
+.fin{
+	overflow:auto;
+	float:center;
+	text-align:center;
+	margin:10px 380px;
+	padding:3px;
+	display:block;
+	height:50%;
+
+}
