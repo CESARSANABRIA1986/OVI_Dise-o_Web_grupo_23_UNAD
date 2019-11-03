@@ -123,14 +123,6 @@ nav > ul > li > ul {
 	padding:50px 10px 10px;
 }
 
-.video{
-	overflow:auto;
-	float:center;
-	width:70%;
-	height:150%;
-}
-
-
 #Subtitulo_2{
 	text-align:center;
 	font:20px Verdana, Geneva, sans-serif;
@@ -163,7 +155,7 @@ nav > ul > li > ul {
 	floats:left;
 	overflow:auto;
 	margin-left:20px auto;
-	width:50px;
+	width:100px;
 	width:900px;
 	padding:10px;
 		
@@ -175,7 +167,7 @@ nav > ul > li > ul {
 	overflow:auto;
 	margin:10px auto;
 	display:inline-block;
-	height:60px; /*altura delobjeto*/
+	height:500px; /*altura delobjeto*/
 	width:900px;/*Ancho del Objeto*/
 	padding:10px;
 	
