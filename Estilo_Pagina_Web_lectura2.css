@@ -119,8 +119,17 @@ nav > ul > li > ul {
 	float:left; /*Posicion de la caja o obsjeto*/
 	width:auto; /*tamaño del objeto*/
 	height:auto; /*tamaño del objeto*/
-	margin:80px 10px 10px;
+	margin:150px 30px 10px;
+	padding:50px 10px 10px;
 }
+
+.video{
+	overflow:auto;
+	float:center;
+	width:70%;
+	height:150%;
+}
+
 
 #Subtitulo_2{
 	text-align:center;
@@ -154,7 +163,8 @@ nav > ul > li > ul {
 	floats:left;
 	overflow:auto;
 	margin-left:20px auto;
-	width:100px;
+	width:50px;
+	width:900px;
 	padding:10px;
 		
 	}
@@ -165,7 +175,7 @@ nav > ul > li > ul {
 	overflow:auto;
 	margin:10px auto;
 	display:inline-block;
-	height:100px; /*altura delobjeto*/
+	height:60px; /*altura delobjeto*/
 	width:900px;/*Ancho del Objeto*/
 	padding:10px;
 	
