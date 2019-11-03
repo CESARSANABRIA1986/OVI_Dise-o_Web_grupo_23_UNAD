@@ -154,7 +154,7 @@ nav > ul > li > ul {
 	floats:left;
 	overflow:auto;
 	margin-left:20px auto;
-	width:900px;
+	width:100px;
 	padding:10px;
 		
 	}
@@ -165,7 +165,7 @@ nav > ul > li > ul {
 	overflow:auto;
 	margin:10px auto;
 	display:inline-block;
-	height:500px; /*altura delobjeto*/
+	height:100px; /*altura delobjeto*/
 	width:900px;/*Ancho del Objeto*/
 	padding:10px;
 	
