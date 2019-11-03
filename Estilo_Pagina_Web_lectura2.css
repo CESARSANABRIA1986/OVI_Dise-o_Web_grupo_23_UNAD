@@ -164,11 +164,15 @@ nav > ul > li > ul {
 	overflow:auto;
 	margin:10px auto;
 	display:inline-block;
-	height:700px 50px; /*altura delobjeto*/
-	width:700px;/*Ancho del Objeto*/
+	height:500px; /*altura delobjeto*/
+	width:900px;/*Ancho del Objeto*/
 	
 	}
 	
+#div{
+	padding:3px;
+	
+	}
 #comandos{
 	color:#000;
 	background-attachment:scroll;
