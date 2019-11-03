@@ -18,7 +18,7 @@
     }
 
 nav {
-	max-width: 80%;	
+	max-width: 90%;		
 }
 
 body{
@@ -42,34 +42,83 @@ body{
 	clear:both;
 }
 
-.Barra_principal{	
-	text-align:center;
-	border:3px solid #000;
-	border-radius:10px;
-	border-radius:40px 40px 40px 40px;
-	background-color: #005883;
-	padding:10px;
-	margin:auto;
-	clear:both;
+/*Menú************************************************/
+
+/*Menu General*/
+nav ul{
+	list-style:none;
+	padding:0;	
+	margin:10px 30px auto 80px;
+	border-radius:40px 40px 40px 40px;	
+	}
+	
+nav li{
+	line-height:3rem;
+	position:relative;
 }
 
-.Barra_principal lo a{
-	display:inline-block;
-	justify-content:center;
-	flex-glow:100%;
-	margin:1px 5%;
-	padding:3px;
-	font-size:22px;
-	overflow:auto;
+nav a{
 	text-decoration:none;
-	border-radius:60px 20px 5px 60px;
-	color:#F30;		
+	padding:0 3em;
+	font-size:18px;
+	color:#F00;
+	transition:0.4s;
+	display:block;
+	float:right;
+	background:#036;
+	
+	}
+	
+nav li ul{
+	position:absolute;
+	float:right;
+	display:none;
+	
+}
+nav li:hover ul{
+	display:block;
+	}
+
+
+nav a:hover{
+	background:rgba(0, 0, 0, .5);
 }
 
-.Barra_principal lo a:hover{
-	background:rgba(0, 0, 0, 0.3);
+nav ul ul ul{
+	display:none;
 }
 
+
+/*Primer Nivel*/
+
+nav > ul{
+	background:#036;
+	display:table;
+	width:100%;
+}
+
+nav > ul > li{
+	float:left;
+	padding:20px 30px;
+	
+}
+
+/*Segundo Nivel*/
+
+nav li li{
+	background:#F30;
+	display:block;
+	transition:all 0.6s;
+}
+
+nav > ul > li > ul {
+	top:87%;
+}
+
+
+
+
+/***********************************************/
 #html{
 	overflow:auto;
 	display:inline-block;
